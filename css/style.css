@@ -99,9 +99,22 @@
 
 .sobreFotos img {
     opacity: 0.5;
+    margin-top: 2rem;
+}
+
+.sobreTexto h3 {
+   margin-top: 2rem;
 }
 
 @media (max-width: 1680px) {
+    #icon-b37 {
+        width: 2.5em;
+        height: 2.5em;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
 
 }
 
@@ -125,6 +138,20 @@
         width: 10rem;
         height: 7.5rem;
     }
+    .sobreTexto h2 {
+        font-size: 1rem;   
+    }
+
+    .sobreTexto h3 {
+        font-size: 1rem;   
+    }
+    .sobreTexto p {
+        font-size: 1rem;
+    }
+    .button .n01 {
+        width: 1em;
+        height: 1em;
+    }
 }
 
 @media (max-width: 736px) {
@@ -133,8 +160,8 @@
         height: 5rem;
     }
     .sobreFotos img {
-        width: 8rem;
-        height: 6rem;
+        width: 13.375rem;
+        height: 10rem;
     }
 }
 
@@ -143,12 +170,25 @@
         width: 4rem;
         height: 4rem;
     }
+    .sobreTexto h2 {
+        font-size: 0.58rem;   
+    }
 
+    .sobreTexto h3 {
+        font-size: 0.58rem;   
+    }
+    .sobreTexto p {
+        font-size: 0.58rem;
+    }
 }
 
 @media (max-width: 360px) {
     .sobre img {
         width: 3.75rem;
         height: 3.75rem;
+    }
+    .sobreFotos img {
+        width: 13.375rem;
+        height: 10rem;
     }
 }
