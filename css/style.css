@@ -20,18 +20,16 @@
 
 
 .sobreRegalo:before {
-    content: '';
-    position: absolute;
+    content: "";
+    display: block;
+    position: fixed;
     top: 0;
     left: 0;
-    bottom: 0;
-    right: 0;
-    background-image: url(../assets/img/fondo-de-pantalla.jpeg);
+    z-index: -10;
+    background: url(./assets/img/fondo-de-pantalla.jpeg);
+    background-position: 0% 0%, center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-    -webkit-mask-attachment: fixed;
-    background-position: 0% 0%, center;
     opacity: 0.4;
 }
 
