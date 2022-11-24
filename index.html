@@ -229,13 +229,12 @@
 
         .is-ready:before {
             content: '';
-            display: block;
             position: absolute;
             top: 0;
             left: 0;
             bottom: 0;
             right: 0;
-            background-attachment: fixed;
+            background-attachment: fixed !important;
             background-image: url(./assets/img/fondo-de-pantalla.jpeg);
             background-position: 0% 0%, center;
             background-repeat: no-repeat;
@@ -243,11 +242,6 @@
             opacity: 0.5;
         }
 
-
-        .is-ready.is-loading:after {
-            opacity: 1;
-            visibility: visible;
-        }
 
         :root {
             --site-language-direction: ltr;
