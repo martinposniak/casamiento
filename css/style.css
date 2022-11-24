@@ -163,10 +163,6 @@
         max-width: 18.75rem;
         text-align: center;
     }
-    .button .n01 {
-        width: 1em;
-        height: 1em;
-    }
 }
 
 @media (max-width: 736px) {
