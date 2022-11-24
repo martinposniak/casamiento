@@ -5,6 +5,13 @@
     font-family: 'GFS Didot', serif;
 }
 
+.sobreTexto h4 .volverAlIndex {
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5rem;
+}
+
 .sobreRegalo { 
     display: flex;
     flex-direction: column;
@@ -75,6 +82,8 @@
     align-content: center;
     align-items: center;
     opacity: 0.6;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .sobreTexto h2 {
