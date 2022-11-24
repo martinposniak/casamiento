@@ -227,7 +227,7 @@
             position: relative;
         }
 
-        .is-ready:before {
+        .is-ready::before {
             content: '';
             position: absolute;
             top: 0;
@@ -463,7 +463,9 @@
         }
         .nosVemosEl28 h3 {
             font-family: 'Source Sans Pro', sans-serif;
-            font-size: 2rem;            
+            font-size: 2rem;
+            margin-top: 2.5rem;
+            margin-bottom: 2.5rem;            
         }
 
         .timer {
@@ -1218,6 +1220,20 @@
             background-repeat: no-repeat;
             background-size: cover;
             opacity: 0.5;
+        }
+
+        .sobreRegalo::before {
+            content: "";
+            display: block;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: -10;
+            background: url(../assets/img/fondo-de-pantalla.jpeg);
+            background-position: 0% 0%, center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity: 0.4;
         }
 
         }
