@@ -5,9 +5,14 @@
     font-family: 'GFS Didot', serif;
 }
 
-.sobreTexto h4 .volverAlIndex {
+.sobreFotosYeah {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+
+.sobreFotosYeah .volverAlIndex {
     text-decoration: none;
-    list-style: none;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1rem;
 }
