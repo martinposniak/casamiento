@@ -218,7 +218,7 @@
             text-decoration: line-through;
         }
 
-        body {
+        .is-ready {
             min-width: 320px;
             min-height: 100vh;
             line-height: 1.0;
@@ -227,7 +227,7 @@
             position: relative;
         }
 
-        body:before {
+        .is-ready:before {
             content: '';
             display: block;
             position: absolute;
@@ -244,7 +244,7 @@
         }
 
 
-        body.is-loading:after {
+        .is-ready.is-loading:after {
             opacity: 1;
             visibility: visible;
         }

@@ -39,6 +39,7 @@
 }
 
 
+
 .maridoMujer {
     display: flex;
     flex-direction: column;
@@ -231,6 +232,8 @@
         max-width: 15.625rem;
         text-align: center;
     }
+
+    
 }
 
 @media (max-width: 360px) {
