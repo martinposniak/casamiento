@@ -19,7 +19,7 @@
 }
 
 
-.sobreRegalo::before {
+.sobreRegalo:before {
     content: '';
     position: absolute;
     top: 0;
