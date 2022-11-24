@@ -123,18 +123,6 @@
         width: 25rem;
         height: 18.75em;
     }
-    /*.sobreTexto {
-        display: block;
-        width: 18.75rem;
-        height: 16.0625rem;
-        margin-block-start: 1em;
-        margin-block-end: 1em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
-        margin-left: 29rem;
-        text-align: center;
-    }
-    */
 
     .sobreTexto h2 {
         font-size: 1.5rem;
