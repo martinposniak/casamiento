@@ -29,7 +29,8 @@
     background-image: url(../assets/img/fondo-de-pantalla.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed !important;
+    background-attachment: fixed;
+    -webkit-mask-attachment: fixed;
     background-position: 0% 0%, center;
     opacity: 0.4;
 }
