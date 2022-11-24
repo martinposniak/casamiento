@@ -74,21 +74,25 @@
     flex-direction: column;
     align-content: center;
     align-items: center;
-    margin-top: 1rem;
     opacity: 0.6;
 }
 
 .sobreTexto h2 {
     font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    margin-top: 1rem;
 }
 
 .sobreTexto h3 {
     font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
 }
 
 .sobreTexto p {
     font-size: 1.2rem;
     font-family: 'Source Sans Pro', sans-serif;
+    max-width: 32rem;
+    text-align: center;
 }
 
 .sobreFotos {
@@ -99,22 +103,14 @@
 
 .sobreFotos img {
     opacity: 0.5;
-    margin-top: 2rem;
+    margin-top: 0.5rem;
 }
 
 .sobreTexto h3 {
-   margin-top: 2rem;
+   margin-top: 0rem;
 }
 
 @media (max-width: 1680px) {
-    #icon-b37 {
-        width: 2.5em;
-        height: 2.5em;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-    }
 
 }
 
@@ -124,8 +120,35 @@
         height: 9rem;
     }
     .sobreFotos img {
-        width: 16rem;
-        height: 12rem;
+        width: 25rem;
+        height: 18.75em;
+    }
+    /*.sobreTexto {
+        display: block;
+        width: 18.75rem;
+        height: 16.0625rem;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        margin-left: 29rem;
+        text-align: center;
+    }
+    */
+
+    .sobreTexto h2 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .sobreTexto p {
+        font-size: 1.2rem;
+        max-width: 25rem; 
+        text-align: center;
+    }
+    .sobreTexto h3 {
+        font-size: 1.5rem;
+        text-align: center;
     }
 }
 
@@ -135,18 +158,22 @@
         height: 7rem;
     }
     .sobreFotos img {
-        width: 10rem;
-        height: 7.5rem;
+        width: 18.75rem;
+        height: 14.0625rem;
     }
     .sobreTexto h2 {
-        font-size: 1rem;   
+        font-size: 1rem;
+        text-align: center;   
     }
 
     .sobreTexto h3 {
-        font-size: 1rem;   
+        font-size: 1rem;
+        text-align: center;   
     }
     .sobreTexto p {
         font-size: 1rem;
+        max-width: 18.75rem;
+        text-align: center;
     }
     .button .n01 {
         width: 1em;
@@ -160,8 +187,22 @@
         height: 5rem;
     }
     .sobreFotos img {
-        width: 13.375rem;
-        height: 10rem;
+        width: 15.625rem;
+        height: 11.6875rem;
+    }
+    .sobreTexto h2 {
+        font-size: 1rem;
+        text-align: center;   
+    }
+
+    .sobreTexto h3 {
+        font-size: 1rem;
+        text-align: center;   
+    }
+    .sobreTexto p {
+        font-size: 1rem;
+        max-width: 15.625rem;
+        text-align: center;
     }
 }
 
@@ -170,15 +211,23 @@
         width: 4rem;
         height: 4rem;
     }
+    .sobreFotos img {
+        width: 15.625rem;
+        height: 11.6875rem;
+    }
     .sobreTexto h2 {
-        font-size: 0.58rem;   
+        font-size: 1rem;
+        text-align: center;   
     }
 
     .sobreTexto h3 {
-        font-size: 0.58rem;   
+        font-size: 1rem;
+        text-align: center;   
     }
     .sobreTexto p {
-        font-size: 0.58rem;
+        font-size: 1rem;
+        max-width: 15.625rem;
+        text-align: center;
     }
 }
 
@@ -191,4 +240,32 @@
         width: 13.375rem;
         height: 10rem;
     }
+    .sobreTexto h2 {
+        font-size: 1rem;
+        text-align: center;   
+    }
+
+    .sobreTexto h3 {
+        font-size: 1rem;
+        text-align: center;   
+    }
+    .sobreTexto p {
+        font-size: 1rem;
+        max-width: 15.625rem;
+        text-align: center;
+    }
 }
+
+
+
+
+
+
+
+
+
+/*OBSERVACIONES*/
+/*El emoji del sobre está chico 
+Faltan tildes 
+La mayúscula en la E de “Nati y Eze” arriba de todo 
+Falta el emoji de fiesta al lado del “NOS VEMOS EL 28E”*/
