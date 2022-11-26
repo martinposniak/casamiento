@@ -33,7 +33,7 @@
     right: 0;
     bottom: 0;
     background-attachment: fixed;
-    background-image: url(../assets/img/fondo-de-pantalla.jpeg);
+    background-image: url(../assets/img/fondo-natalia-sin-name.jpg);
     background-position: 0% 0%, center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -275,7 +275,7 @@
         top: 0;
         left: 0;
         z-index: -10;
-        background: url(../assets/img/fondo-de-pantalla.jpeg);
+        background: url(../assets/img/fondo-natalia-sin-name.jpg);
         background-position: 0% 0%, center;
         background-repeat: no-repeat;
         background-size: cover;
